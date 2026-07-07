@@ -1,0 +1,22 @@
+Healthcare Analytics
+
+Project Overview:
+This project analyzes healthcare patient data and predicts test results using Machine Learning.
+
+Tools Used:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+- Power BI
+- SQL
+
+Features:
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Machine Learning Prediction
+- Interactive Streamlit Application
