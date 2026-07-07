@@ -1,15 +1,9 @@
-# Healthcare Analytics 🏥
+# Healthcare Analytics
 
 ## Project Overview
+This project analyzes healthcare patient data and predicts medical test results using Machine Learning techniques.
 
-Healthcare Analytics is a data science project that analyzes patient healthcare data to discover insights and build a Machine Learning model for predicting healthcare outcomes.
-
-The project includes data preprocessing, exploratory data analysis, feature engineering, machine learning model development, SQL analysis, Power BI dashboard creation, and deployment using Streamlit.
-
----
-
-## Tools & Technologies Used
-
+## Tools Used
 - Python
 - Pandas
 - NumPy
@@ -17,67 +11,55 @@ The project includes data preprocessing, exploratory data analysis, feature engi
 - Seaborn
 - Scikit-learn
 - Streamlit
-- SQL
-- Power BI
-- Jupyter Notebook
 
----
+## Project Workflow
 
-## Project Features
+1. Data Loading
+- Loaded healthcare dataset
+- Checked data structure and information
 
-✅ Data Loading & Data Cleaning  
-✅ Exploratory Data Analysis (EDA)  
-✅ Statistical Analysis  
-✅ Feature Engineering  
-✅ Machine Learning Model Building  
-✅ Model Prediction  
-✅ Interactive Streamlit Web Application  
-✅ SQL Healthcare Data Analysis  
-✅ Power BI Dashboard  
+2. Data Cleaning
+- Handled missing values
+- Removed unnecessary columns
+- Prepared dataset for modeling
 
----
+3. Exploratory Data Analysis
+- Analyzed patient demographics
+- Visualized medical conditions
+- Created correlation analysis
+
+4. Feature Engineering
+- Converted categorical variables using Label Encoding
+- Prepared features for Machine Learning model
+
+5. Machine Learning Model
+- Built classification model
+- Evaluated model performance
+- Saved trained model
+
+6. Streamlit Application
+- Created interactive web application
+- User can enter patient details and get prediction results
 
 ## Project Structure
 
----
-
-## Machine Learning Workflow
-
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Encoding
-5. Feature Scaling
-6. Model Training
-7. Model Evaluation
-8. Prediction
-
----
-
-## Streamlit Application
-
-The project includes an interactive Streamlit application where users can enter patient information and get healthcare predictions.
-
----
-
-## Power BI Dashboard
-
-Created an interactive dashboard to visualize:
-
-- Patient demographics
-- Medical conditions
-- Billing analysis
-- Healthcare insights
-
----
-
-## How to Run the Project
-
-Install required libraries:
-
-```bash
-pip install -r Requirements.txt
-python -m streamlit run App/app.py
-# Conclusion
-
-# This project demonstrates how Data Analytics, Machine Learning, SQL, and Business Intelligence tools can be combined to extract meaningful insights from healthcare data and build a practical analytics solution.
+Healthcare-Analytics/
+│
+├── App/
+│   └── app.py
+│
+├── Data/
+│   └── healthcare_dataset.csv
+│
+├── Image/
+│   └── EDA Visualizations
+│
+├── Models/
+│   └── Saved ML Models
+│
+├── Notebooks/
+│   ├── Data Loading
+│   ├── Feature Engineering
+│   └── Model Building
+│
+└── README.md
